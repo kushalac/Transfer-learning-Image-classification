@@ -13,7 +13,6 @@ This project implements transfer learning using pre-trained models like ResNet50
 5. [Training and Evaluation](#training-and-evaluation)
 6. [Results](#results)
 7. [How to Run](#how-to-run)
-8. [References](#references)
 
 ---
 
