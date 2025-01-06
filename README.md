@@ -90,14 +90,18 @@ Evaluation is done on training, validation, and test datasets.
 
 ## Results
 
-| Model         | Training AUC | Validation AUC | Test AUC | Precision | Recall | F1 Score |
-|---------------|--------------|----------------|----------|-----------|--------|----------|
-| ResNet50      | xx.xx        | xx.xx          | xx.xx    | xx.xx     | xx.xx  | xx.xx    |
-| ResNet101     | xx.xx        | xx.xx          | xx.xx    | xx.xx     | xx.xx  | xx.xx    |
-| EfficientNetB0| xx.xx        | xx.xx          | xx.xx    | xx.xx     | xx.xx  | xx.xx    |
-| VGG16         | xx.xx        | xx.xx          | xx.xx    | xx.xx     | xx.xx  | xx.xx    |
+### Training and Validation Accuracies
+| Model          | Training Accuracy | Validation Accuracy | Test AUC    |
+|-----------------|-------------------|---------------------|-------------|
+| ResNet50       | 89%              | 90%                | 0.9899      |
+| ResNet101      | 89%              | 90%                | 0.9895      |
+| EfficientNetB0 | **91%**          | **92%**            | **0.9921**  |
+| VGG16          | 87%              | 88%                | 0.9854      |
 
-(Replace `xx.xx` with actual results after training.)
+### Key Findings
+- **EfficientNetB0** achieved the highest test accuracy of **92%** and the best AUC score of **0.9921**, making it the best-performing model for this dataset.
+- ResNet models (ResNet50 and ResNet101) performed consistently well with **90% validation accuracy**.
+- VGG16, while robust, performed slightly worse than the other models with a validation accuracy of **88%**.
 
 ---
 
